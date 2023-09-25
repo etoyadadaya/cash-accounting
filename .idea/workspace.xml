@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/_components/logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/_components/navbar/mobile-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/_components/navbar/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar-routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/core/navbar-routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ivan/WebstormProjects/lms-platform/app/(auth)/(routes)/sign-in/[[...sign-in]]",
+    "last_opened_file_path": "/Users/ivan/WebstormProjects/lms-platform/app/(dashboard)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,13 +61,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(dashboard)" />
       <recent name="$PROJECT_DIR$/app/(auth)/(routes)/sign-in/[[...sign-in]]" />
       <recent name="$PROJECT_DIR$/app/(auth)/(routes)/sign-up/[[...sign-up]]" />
       <recent name="$PROJECT_DIR$/app/(auth)/(routes)/sign-in" />
       <recent name="$PROJECT_DIR$/app/(group)/routeb" />
-      <recent name="$PROJECT_DIR$/app/(group)/route" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/core" />
+      <recent name="$PROJECT_DIR$/app/(dashboard)/_components/navbar" />
+      <recent name="$PROJECT_DIR$/app/(dashboard)/_components/sidebar" />
       <recent name="$PROJECT_DIR$/app/(dashboard)/(routes)" />
     </key>
   </component>
@@ -76,7 +86,7 @@
       <workItem from="1695632321757" duration="53000" />
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
-      <workItem from="1695632747030" duration="3645000" />
+      <workItem from="1695632747030" duration="7333000" />
     </task>
     <servers />
   </component>
