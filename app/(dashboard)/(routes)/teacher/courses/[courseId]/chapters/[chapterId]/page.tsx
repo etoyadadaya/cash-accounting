@@ -13,6 +13,9 @@ import {
 import {
   ChapterAccessForm
 } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-access-form";
+import {
+  ChapterVideoForm
+} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-video-form";
 
 const ChapterIdPage = async ({ params }: { params: { courseId: string, chapterId: string } }) => {
   const { userId } = auth();
@@ -111,6 +114,11 @@ const ChapterIdPage = async ({ params }: { params: { courseId: string, chapterId
               Add a video
             </h2>
           </div>
+          <ChapterVideoForm
+            initialData={chapter}
+            courseId={params.courseId}
+            chapterId={params.chapterId}
+          />
         </div>
       </div>
     </div>

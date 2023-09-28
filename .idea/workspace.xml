@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-access-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-video-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/[chapterId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/[chapterId]/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -88,7 +89,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="25052000" />
+      <workItem from="1695715729505" duration="27208000" />
     </task>
     <servers />
   </component>
