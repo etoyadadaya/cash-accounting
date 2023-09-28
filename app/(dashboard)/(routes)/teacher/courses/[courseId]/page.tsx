@@ -10,22 +10,10 @@ import {ImageForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_
 import {CategoryForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/category-form";
 import {PriceForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/price-form";
 import {AttachmentForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/attachment-form";
+import {ChapterForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapter-form";
 
 const CourseIdPage = async ({ params}: { params: { courseId: string } } ) => {
   const { userId } = auth();
-
-  const course = await db.course.findUnique({
-    where: {
-      id: params.courseId,
-    },
-    include: {
-      attachments: {
-        orderBy: {
-          createdAt: "desc",
-        },
-      },
-    },
-  });
 
   const categories = await db.category.findMany({
     orderBy: {
@@ -37,6 +25,25 @@ const CourseIdPage = async ({ params}: { params: { courseId: string } } ) => {
     return redirect("/");
   }
 
+  const course = await db.course.findUnique({
+    where: {
+      id: params.courseId,
+      userId,
+    },
+    include: {
+      chapters: {
+        orderBy: {
+          position: "asc",
+        },
+      },
+      attachments: {
+        orderBy: {
+          createdAt: "desc",
+        },
+      },
+    },
+  });
+
   if (!course) {
     return redirect("/");
   }
@@ -47,6 +54,7 @@ const CourseIdPage = async ({ params}: { params: { courseId: string } } ) => {
     course.imageUrl,
     course.price,
     course.categoryId,
+    course.chapters.some(chapter => chapter.isPublished),
   ];
 
   const totalFields = requiredFields.length;
@@ -103,9 +111,10 @@ const CourseIdPage = async ({ params}: { params: { courseId: string } } ) => {
                 Course chapters
               </h2>
             </div>
-            <div>
-              TODO: CHAPTERS
-            </div>
+            <ChapterForm
+              initialData={course}
+              courseId={course.id}
+            />
           </div>
           <div>
             <div className="flex items-center gap-x-2">
