@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapters-list.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/reorder/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-title-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/[chapterId]/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapter-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapter-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ivan/WebstormProjects/lms-platform/app/api/courses/[courseId]/chapters",
+    "last_opened_file_path": "/Users/ivan/WebstormProjects/lms-platform/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components" />
       <recent name="$PROJECT_DIR$/app/api/courses/[courseId]/chapters" />
       <recent name="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components" />
       <recent name="$PROJECT_DIR$/app/(dashboard)" />
       <recent name="$PROJECT_DIR$/app/(auth)/(routes)/sign-in/[[...sign-in]]" />
-      <recent name="$PROJECT_DIR$/app/(auth)/(routes)/sign-up/[[...sign-up]]" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/api/courses/[courseId]" />
@@ -89,7 +87,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="21077000" />
+      <workItem from="1695715729505" duration="22963000" />
     </task>
     <servers />
   </component>
