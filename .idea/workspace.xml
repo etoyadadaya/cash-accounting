@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/attachment-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/attachments/[attachmentId]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/attachments/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/uploadthing/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="16528000" />
+      <workItem from="1695715729505" duration="17146000" />
     </task>
     <servers />
   </component>
