@@ -5,50 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/category-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/combobox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/price-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/format.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/(routes)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/(routes)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/analytics/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/analytics/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/description-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/description-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/image-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/image-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/title-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/title-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/create/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/_components/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/_components/logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/_components/navbar/mobile-sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/_components/navbar/mobile-sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/_components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/_components/navbar/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar-routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar-routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/_components/sidebar/sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/[courseId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/uploadthing/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/uploadthing/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/uploadthing/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/file-upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/file-upload.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/icon-badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/icon-badge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/navbar-routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navbar-routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/providers/toaster-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/providers/toaster-provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/label.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/sheet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/textarea.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/uploadthing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/uploadthing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +86,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="12746000" />
+      <workItem from="1695715729505" duration="14547000" />
     </task>
     <servers />
   </component>
