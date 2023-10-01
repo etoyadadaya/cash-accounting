@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/core/search-input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-debounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-courses.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-progress.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/core/course-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/core/courses-list.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/navbar-routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navbar-routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="39219000" />
+      <workItem from="1695715729505" duration="41893000" />
     </task>
     <servers />
   </component>
