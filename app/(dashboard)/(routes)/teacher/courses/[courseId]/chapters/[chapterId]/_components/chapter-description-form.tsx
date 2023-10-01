@@ -20,8 +20,8 @@ import toast from "react-hot-toast";
 import {useRouter} from "next/navigation";
 import {cn} from "@/lib/utils";
 import {Chapter} from "@prisma/client";
-import {Editor} from "@/components/editor";
-import {Preview} from "@/components/preview";
+import {Editor} from "@/components/core/editor";
+import {Preview} from "@/components/core/preview";
 
 interface ChapterDescriptionFormProps {
   initialData: Chapter;
