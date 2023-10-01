@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-mobile-sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-sidebar-item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-chapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/video-player.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/navbar-routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navbar-routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(course)/courses/[courseId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +88,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="44908000" />
+      <workItem from="1695715729505" duration="47985000" />
     </task>
     <servers />
   </component>
