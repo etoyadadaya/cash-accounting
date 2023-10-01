@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/get-chapter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/video-player.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/course-enroll-button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(course)/courses/[courseId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/video-player.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/video-player.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/chapters/[chapterId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="47985000" />
+      <workItem from="1695715729505" duration="48775000" />
     </task>
     <servers />
   </component>

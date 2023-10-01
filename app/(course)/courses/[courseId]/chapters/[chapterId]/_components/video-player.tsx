@@ -41,7 +41,7 @@ export const VideoPlayer = ({ playbackId, completeOnEnd, title, chapterId, nextC
           )}
           onCanPlay={() => setIsReady(true)}
           onEnded={() => {}}
-          autoPlay
+          autoPlay={false}
           playbackId={playbackId}
         />
       )}
