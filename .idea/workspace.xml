@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/get-courses.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/get-progress.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/core/course-card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/core/courses-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-mobile-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-sidebar-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components/course-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(course)/courses/[courseId]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/search/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/core/navbar-routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navbar-routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ivan/WebstormProjects/lms-platform/app/api/courses/[courseId]",
+    "last_opened_file_path": "/Users/ivan/WebstormProjects/lms-platform/app/(course)/courses/[courseId]/_components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,18 +65,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(course)/courses/[courseId]/_components" />
       <recent name="$PROJECT_DIR$/app/api/courses/[courseId]" />
       <recent name="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components" />
       <recent name="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/[chapterId]" />
       <recent name="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components" />
-      <recent name="$PROJECT_DIR$/app/api/courses/[courseId]/chapters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(course)/courses/[courseId]" />
       <recent name="$PROJECT_DIR$/components/core" />
       <recent name="$PROJECT_DIR$/app/api/courses/[courseId]" />
       <recent name="$PROJECT_DIR$/app/(dashboard)/_components/navbar" />
       <recent name="$PROJECT_DIR$/app/(dashboard)/_components/sidebar" />
-      <recent name="$PROJECT_DIR$/app/(dashboard)/(routes)" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +92,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="41893000" />
+      <workItem from="1695715729505" duration="44908000" />
     </task>
     <servers />
   </component>
