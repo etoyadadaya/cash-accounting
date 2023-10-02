@@ -1,6 +1,8 @@
-import {cva, VariantProps} from "class-variance-authority";
-import {AlertTriangle, CheckCircleIcon} from "lucide-react";
-import {cn} from "@/lib/utils";
+import { cn } from "@/lib/utils";
+
+import { cva, VariantProps } from "class-variance-authority";
+
+import { AlertTriangle, CheckCircleIcon } from "lucide-react";
 
 const bannerVariant = cva(
   "border text-center p-4 text-sm flex items-center w-full",

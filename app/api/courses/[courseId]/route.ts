@@ -1,8 +1,10 @@
-import {NextResponse} from "next/server";
-import {auth} from "@clerk/nextjs";
-import {db} from "@/lib/db";
 import Mux from "@mux/mux-node";
-import {isTeacher} from "@/lib/teacher";
+
+import { NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs";
+
+import { db } from "@/lib/db";
+import { isTeacher } from "@/lib/teacher";
 
 const { Video } = new Mux(
   process.env.MUX_TOKEN_ID!,

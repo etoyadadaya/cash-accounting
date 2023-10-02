@@ -1,14 +1,17 @@
 "use client";
 
 import axios from "axios";
-import { Trash } from "lucide-react";
-import { useState } from "react";
 import toast from "react-hot-toast";
+
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { ConfirmModal } from "@/components/modals/confirm-modal";
-import {useConfettiStore} from "@/hooks/use-confetti-store";
+
+import { useConfettiStore } from "@/hooks/use-confetti-store";
+
+import { Trash } from "lucide-react";
 
 interface CourseActionsProps {
   disabled: boolean;

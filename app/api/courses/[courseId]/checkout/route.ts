@@ -1,8 +1,10 @@
-import {NextResponse} from "next/server";
-import {currentUser} from "@clerk/nextjs";
-import {db} from "@/lib/db";
 import Stripe from "stripe";
-import {stripe} from "@/lib/stripe";
+
+import { NextResponse } from "next/server";
+import { currentUser } from "@clerk/nextjs";
+
+import { db } from "@/lib/db";
+import { stripe } from "@/lib/stripe";
 
 export async function POST(req: Request, { params } : { params: { courseId: string } }) {
   try {

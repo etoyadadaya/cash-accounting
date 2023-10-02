@@ -2,6 +2,13 @@
 
 import * as z from "zod";
 import axios from "axios";
+import toast from "react-hot-toast";
+
+import { Chapter, Course } from "@prisma/client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
@@ -14,14 +21,12 @@ import {
 } from "@/components/ui/form";
 
 import { Button } from "@/components/ui/button";
-import {Loader2, PlusCircle} from "lucide-react";
-import {useState} from "react";
-import toast from "react-hot-toast";
-import {useRouter} from "next/navigation";
-import {cn} from "@/lib/utils";
-import {Chapter, Course} from "@prisma/client";
-import {Input} from "@/components/ui/input";
-import {ChaptersList} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapters-list";
+import { Input } from "@/components/ui/input";
+import { ChaptersList } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapters-list";
+
+import { cn } from "@/lib/utils";
+
+import { Loader2, PlusCircle } from "lucide-react";
 
 interface ChapterFormProps {
   initialData: Course & { chapters: Chapter[] };

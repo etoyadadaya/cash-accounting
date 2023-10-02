@@ -1,8 +1,10 @@
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {getAnalytics} from "@/actions/get-analytics";
-import {DataCard} from "@/app/(dashboard)/(routes)/teacher/analytics/_components/data-card";
-import {Chart} from "@/app/(dashboard)/(routes)/teacher/analytics/_components/chart";
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { getAnalytics } from "@/actions/get-analytics";
+
+import { DataCard } from "./_components/data-card";
+import { Chart } from "./_components/chart";
 
 
 const AnalyticsPage = async () => {

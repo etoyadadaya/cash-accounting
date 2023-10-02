@@ -1,18 +1,24 @@
 import React from 'react';
-import {db} from "@/lib/db";
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {IconBadge} from "@/components/core/icon-badge";
-import {CircleDollarSign, LayoutDashboard, ListChecks, File} from "lucide-react";
-import {TitleForm} from "./_components/title-form";
-import {DescriptionForm} from "./_components/description-form";
-import {ImageForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/image-form";
-import {CategoryForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/category-form";
-import {PriceForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/price-form";
-import {AttachmentForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/attachment-form";
-import {ChapterForm} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapter-form";
-import {Banner} from "@/components/core/banner";
-import {CourseActions} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/course-actions";
+
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { CourseActions } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/course-actions";
+
+import { IconBadge } from "@/components/core/icon-badge";
+import { Banner } from "@/components/core/banner";
+import { TitleForm } from "./_components/title-form";
+
+import { DescriptionForm } from "./_components/description-form";
+import { ImageForm } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/image-form";
+import { CategoryForm } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/category-form";
+import { PriceForm } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/price-form";
+import { AttachmentForm } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/attachment-form";
+import { ChapterForm } from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/_components/chapter-form";
+
+import { CircleDollarSign, LayoutDashboard, ListChecks, File } from "lucide-react";
+
+import { db } from "@/lib/db";
 
 const CourseIdPage = async ({ params}: { params: { courseId: string } } ) => {
   const { userId } = auth();

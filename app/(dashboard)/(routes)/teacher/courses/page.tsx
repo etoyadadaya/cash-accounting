@@ -1,9 +1,12 @@
 import React from 'react';
-import {DataTable} from "@/app/(dashboard)/(routes)/teacher/courses/_components/data-table";
-import {columns} from "@/app/(dashboard)/(routes)/teacher/courses/_components/columns";
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {db} from "@/lib/db";
+
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { DataTable } from "@/app/(dashboard)/(routes)/teacher/courses/_components/data-table";
+import { columns } from "@/app/(dashboard)/(routes)/teacher/courses/_components/columns";
+
+import { db } from "@/lib/db";
 
 const CoursesPage = async () => {
   const { userId } = auth();

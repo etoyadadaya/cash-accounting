@@ -1,13 +1,23 @@
 "use client"
 
-import { ColumnDef } from "@tanstack/react-table"
-import {Course} from "@prisma/client";
-import {Button} from "@/components/ui/button";
-import {ArrowUpDown, MoreHorizontal, Pencil} from "lucide-react";
-import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "@/components/ui/dropdown-menu";
+import { Course } from "@prisma/client";
+
 import Link from "next/link";
-import {Badge} from "@/components/ui/badge";
-import {cn} from "@/lib/utils";
+
+import { ColumnDef } from "@tanstack/react-table"
+
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger
+} from "@/components/ui/dropdown-menu";
+
+import { cn } from "@/lib/utils";
+
+import { ArrowUpDown, MoreHorizontal, Pencil } from "lucide-react";
 
 export const columns: ColumnDef<Course>[] = [
   {

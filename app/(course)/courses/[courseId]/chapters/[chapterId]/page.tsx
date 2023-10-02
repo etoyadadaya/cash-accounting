@@ -1,17 +1,16 @@
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {getChapter} from "@/actions/get-chapter";
-import {Banner} from "@/components/core/banner";
-import {VideoPlayer} from "@/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/video-player";
-import {
-  CourseEnrollButton
-} from "@/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/course-enroll-button";
-import {Separator} from "@/components/ui/separator";
-import {Preview} from "@/components/core/preview";
-import {File} from "lucide-react";
-import {
-  CourseProgressButton
-} from "@/app/(course)/courses/[courseId]/chapters/[chapterId]/_components/course-progress-button";
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { getChapter } from "@/actions/get-chapter";
+
+import { Banner } from "@/components/core/banner";
+import { Preview } from "@/components/core/preview";
+import { Separator } from "@/components/ui/separator";
+import { VideoPlayer } from "./_components/video-player";
+import { CourseEnrollButton } from "./_components/course-enroll-button";
+import { CourseProgressButton } from "./_components/course-progress-button";
+
+import { File } from "lucide-react";
 
 const ChapterIdPage = async ({ params }: { params: { courseId: string; chapterId: string } }) => {
   const { userId } = auth();

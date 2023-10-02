@@ -1,9 +1,12 @@
-import {Chapter, Course, UserProgress} from "@prisma/client";
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {db} from "@/lib/db";
-import {NavbarRoutes} from "@/components/core/navbar-routes";
-import {CourseMobileSidebar} from "@/app/(course)/courses/[courseId]/_components/course-mobile-sidebar";
+import { Chapter, Course, UserProgress } from "@prisma/client";
+
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { NavbarRoutes } from "@/components/core/navbar-routes";
+import { CourseMobileSidebar } from "./course-mobile-sidebar";
+
+import { db } from "@/lib/db";
 
 interface CourseNavbarProps {
   course: Course & {

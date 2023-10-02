@@ -1,7 +1,9 @@
 import React from "react";
-import {auth} from "@clerk/nextjs";
-import {isTeacher} from "@/lib/teacher";
-import {redirect} from "next/navigation";
+
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { isTeacher } from "@/lib/teacher";
 
 const TeacherLayout = ({ children }: { children: React.ReactNode }) => {
   const { userId } = auth();

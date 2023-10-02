@@ -2,9 +2,18 @@
 
 import * as z from "zod";
 import axios from "axios";
+import toast from "react-hot-toast";
+
+import { Course } from "@prisma/client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import {
   Form,
   FormControl,
@@ -13,15 +22,10 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 
-import { Button } from "@/components/ui/button";
-import {PencilIcon} from "lucide-react";
-import {useState} from "react";
-import toast from "react-hot-toast";
-import {useRouter} from "next/navigation";
-import {cn} from "@/lib/utils";
-import {Course} from "@prisma/client";
-import {Input} from "@/components/ui/input";
-import {formatPrice} from "@/lib/format";
+import { cn } from "@/lib/utils";
+import { formatPrice } from "@/lib/format";
+
+import { PencilIcon } from "lucide-react";
 
 interface PriceFormProps {
   initialData: Course;

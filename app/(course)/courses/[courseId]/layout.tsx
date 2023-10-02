@@ -1,10 +1,14 @@
 import React from "react";
-import {db} from "@/lib/db";
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {getProgress} from "@/actions/get-progress";
-import {CourseSidebar} from "@/app/(course)/courses/[courseId]/_components/course-sidebar";
-import {CourseNavbar} from "@/app/(course)/courses/[courseId]/_components/course-navbar";
+
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { getProgress } from "@/actions/get-progress";
+
+import { CourseSidebar } from "./_components/course-sidebar";
+import { CourseNavbar } from "./_components/course-navbar";
+
+import { db } from "@/lib/db";
 
 const CourseLayout = async ({
   children,

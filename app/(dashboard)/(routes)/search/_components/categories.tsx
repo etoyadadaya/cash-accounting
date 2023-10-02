@@ -1,7 +1,8 @@
 "use client";
 
-import {Category} from "@prisma/client";
+import { Category } from "@prisma/client";
 
+import { IconType } from "react-icons";
 import {
   FcEngineering,
   FcFilmReel,
@@ -12,8 +13,8 @@ import {
   FcSportsMode,
   FcProcess
 } from "react-icons/fc";
-import {IconType} from "react-icons";
-import {CategoryItem} from "@/app/(dashboard)/(routes)/search/_components/category-item";
+
+import { CategoryItem } from "@/app/(dashboard)/(routes)/search/_components/category-item";
 
 interface CategoriesProps {
   items: Category[];

@@ -1,5 +1,4 @@
 import { create } from "zustand";
-import {boolean} from "zod";
 
 type ConfettiStore = {
   isOpen: boolean;

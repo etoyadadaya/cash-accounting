@@ -1,11 +1,15 @@
 import React from 'react';
-import {db} from "@/lib/db";
-import {Categories} from "@/app/(dashboard)/(routes)/search/_components/categories";
-import {SearchInput} from "@/components/core/search-input";
-import {getCourses} from "@/actions/get-courses";
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {CoursesList} from "@/components/core/courses-list";
+
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { getCourses } from "@/actions/get-courses";
+
+import { SearchInput } from "@/components/core/search-input";
+import { CoursesList } from "@/components/core/courses-list";
+import { Categories } from "./_components/categories";
+
+import { db } from "@/lib/db";
 
 interface SearchPageProps {
   searchParams: {

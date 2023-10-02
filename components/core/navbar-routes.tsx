@@ -1,12 +1,15 @@
 "use client"
 
-import {useAuth, UserButton} from "@clerk/nextjs";
-import {usePathname} from "next/navigation";
-import {Button} from "@/components/ui/button";
-import {LogOut} from "lucide-react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
-import {SearchInput} from "@/components/core/search-input";
-import {isTeacher} from "@/lib/teacher";
+
+import { useAuth, UserButton } from "@clerk/nextjs";
+
+import { Button } from "@/components/ui/button";
+import { SearchInput } from "@/components/core/search-input";
+import { isTeacher } from "@/lib/teacher";
+
+import { LogOut } from "lucide-react";
 
 export const NavbarRoutes = () => {
   const { userId } = useAuth()

@@ -1,5 +1,6 @@
-import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
-import {formatPrice} from "@/lib/format";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+import { formatPrice } from "@/lib/format";
 
 interface DataCardProps {
   value: number;

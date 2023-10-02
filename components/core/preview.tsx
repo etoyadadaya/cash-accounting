@@ -1,8 +1,10 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import "react-quill/dist/quill.bubble.css";
-import {useMemo} from "react";
+
+import { useMemo } from "react";
+
+import dynamic from "next/dynamic";
 
 interface PreviewProps {
   value: string;

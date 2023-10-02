@@ -1,25 +1,19 @@
-import {auth} from "@clerk/nextjs";
-import {redirect} from "next/navigation";
-import {db} from "@/lib/db";
 import Link from "next/link";
-import {ArrowLeft, Eye, LayoutDashboard, Video} from "lucide-react";
-import {IconBadge} from "@/components/core/icon-badge";
-import {
-  ChapterTitleForm
-} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-title-form";
-import {
-  ChapterDescriptionForm
-} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-description-form";
-import {
-  ChapterAccessForm
-} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-access-form";
-import {
-  ChapterVideoForm
-} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-video-form";
-import {Banner} from "@/components/core/banner";
-import {
-  ChapterActions
-} from "@/app/(dashboard)/(routes)/teacher/courses/[courseId]/chapters/[chapterId]/_components/chapter-actions";
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
+import { IconBadge } from "@/components/core/icon-badge";
+import { Banner } from "@/components/core/banner";
+
+import { ChapterTitleForm } from "./_components/chapter-title-form";
+import { ChapterDescriptionForm } from "./_components/chapter-description-form";
+import { ChapterAccessForm } from "./_components/chapter-access-form";
+import { ChapterVideoForm } from "./_components/chapter-video-form";
+import { ChapterActions } from "./_components/chapter-actions";
+
+import { db } from "@/lib/db";
+
+import { ArrowLeft, Eye, LayoutDashboard, Video } from "lucide-react";
 
 const ChapterIdPage = async ({ params }: { params: { courseId: string, chapterId: string } }) => {
   const { userId } = auth();

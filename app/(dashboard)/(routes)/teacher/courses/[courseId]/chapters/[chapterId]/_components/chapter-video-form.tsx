@@ -1,16 +1,19 @@
 "use client";
 
+import { Chapter, MuxData } from "@prisma/client";
+
 import * as z from "zod";
 import axios from "axios";
 import MuxPlayer from "@mux/mux-player-react";
-import { Pencil, PlusCircle, Video } from "lucide-react";
-import { useState } from "react";
 import toast from "react-hot-toast";
+
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Chapter, MuxData } from "@prisma/client";
 
 import { Button } from "@/components/ui/button";
 import FileUpload from "@/components/core/file-upload";
+
+import { Pencil, PlusCircle, Video } from "lucide-react";
 
 interface ChapterVideoFormProps {
   initialData: Chapter & { muxData?: MuxData | null };

@@ -1,4 +1,5 @@
 import Logo from "@/app/(dashboard)/_components/logo";
+
 import SidebarRoutes from "@/app/(dashboard)/_components/sidebar/sidebar-routes";
 
 export const Sidebar = () => {

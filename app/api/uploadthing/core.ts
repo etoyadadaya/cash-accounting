@@ -1,6 +1,7 @@
 import { createUploadthing, type FileRouter } from "uploadthing/next";
-import {auth} from "@clerk/nextjs";
-import {isTeacher} from "@/lib/teacher";
+import { auth } from "@clerk/nextjs";
+
+import { isTeacher } from "@/lib/teacher";
 
 const f = createUploadthing();
 
