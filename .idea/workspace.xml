@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a64d8734-9ba9-4e07-b8c7-a4d7841144a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/(routes)/teacher/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/teacher.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/get-analytics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/get-analytics.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/[courseId]/attachments/[attachmentId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/attachments/[attachmentId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/[courseId]/attachments/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/attachments/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/[chapterId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/chapters/[chapterId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/[courseId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/[courseId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/courses/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/courses/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/uploadthing/core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/navbar-routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navbar-routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/ivan/WebstormProjects/lms-platform/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,7 +87,7 @@
       <workItem from="1695632418608" duration="72000" />
       <workItem from="1695632494264" duration="250000" />
       <workItem from="1695632747030" duration="13285000" />
-      <workItem from="1695715729505" duration="58476000" />
+      <workItem from="1695715729505" duration="59275000" />
     </task>
     <servers />
   </component>
